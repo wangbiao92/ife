@@ -2,7 +2,4 @@
 
 
 #如何显示任务demo（静态网页）呢？
-1、创建新的分支gh-pages(即github pages)。
-2、在设置出中github pages中选中该分支，即可。
-3、输入http://username.github.io/ife/xxx.html即可，如http://wangbiao92.github.io/ife/xxx.html.
-4、
+####1、创建新的分支gh-pages(即github pages)。<br>2、在设置出中github pages中选中该分支，即可。<br>3、输入http://username.github.io/ife/xxx.html 即可，如任务一demo：http://wangbiao92.github.io/ife/task01.html.<br>4、
