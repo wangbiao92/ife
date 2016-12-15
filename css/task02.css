@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-} /* 申明全局的元素间隔和边框间隔为0 */
+} /* 申明全局的元素间隔和边框间隔为0,当文件太大时，最好不要用* */
 body{
     background-color: #F0F0F0;
     font-family: "宋体";
