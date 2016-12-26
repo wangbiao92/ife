@@ -9,4 +9,6 @@
 ###所有任务的demo<br>
 [task01_demo](http://wangbiao92.github.io/ife/task01.html)<br>
 [task02_demo](http://wangbiao92.github.io/ife/task02.html)<br>
-[task02_demo](http://wangbiao92.github.io/ife/task03.html)<br>
+[task03_demo](http://wangbiao92.github.io/ife/task03.html)<br>
+[task04_demo](http://wangbiao92.github.io/ife/task04.html)<br>
+[task05_demo](http://wangbiao92.github.io/ife/task05.html)<br>
