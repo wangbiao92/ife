@@ -6,28 +6,37 @@ html {
     background-color: #B2B6C5;
     font-family: "Microsoft YaHei";
 }
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
 header {
+    overflow: hidden;
     background-color: #36352F;
     height: 65px;
 }
 header img {
-    float: left;
     margin-left: 20px;
 }
 .header-nav {
     float: right;
+    height: 65px
 }
-.header-nav ul li {
+.header-nav li {
     float: left;
     margin: 25px 10px;
     list-style-type: none;
     font-size: 15px;
 }
-.header-nav ul li a {
+.header-nav li a {
     text-decoration: none;
     color: #FFFFFF;
 }
-.header-nav ul li a:hover {
+.header-nav li a:hover {
     color: #EB753D;
 }
 article,
