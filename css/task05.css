@@ -201,7 +201,8 @@ template {
 html {
     background-color: #B2B6C5;
 }
-ul {
+ul,
+ol {
     margin: 0;
     padding: 0;
 }
