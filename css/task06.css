@@ -220,8 +220,7 @@ html {
 }
 header {
     position: relative;
-    font-size:12px;
-    font-family: "SimHei";
+    font: 12px "SimHei";
 }
 header .block {
     width: 110px;
@@ -241,8 +240,7 @@ header .time{
     color: #d45d5c;
 }
 header .header-hr {
-    margin-bottom: 30px;
-    width: 892px;
+    margin-bottom: 40px;
     border: 0;/* 去掉一条阴影线 */
     border-bottom: 2px solid #938e8c;
 }
@@ -275,41 +273,34 @@ header .header-hr {
     filter:Alpha(opacity=40); /* IE8 以及更早的浏览器 */
 }
 .partone .title {
-    display: inline-block;
-    margin: 8px 0;
-    font-size: 24px;
-    font-family: "Microsoft Yahei";
+    font: 24px/40px "Microsoft Yahei";
     color: #000000;
     text-decoration: underline;
 }
 .partone .txt {
     display: inline-block;
     width: 203px;
-    font-size: 12px;
-    font-family: "KaiTi";
+    font: italic 12px/10px "KaiTi";
     color: #676767;
 }
 .partone .number_one {
     display: inline-block;
     margin-top: 10px;
     width: 203px;
-    font-size: 116px;
-    font-family: "Microsoft Yahei";
+    font: italic 116px "Microsoft Yahei";
     color: #75b86b;
 }
 .partone .number_two {
     position: absolute;
     bottom: 0;
-    font-size: 55px;
-    font-family: "Microsoft Yahei";
+    font: 55px "Microsoft Yahei";
     color: #cc8091;
 }
 .partone .txt_t {
     position: absolute;
     right: 95.27px;
     bottom: 21px;
-    font-size: 21px;
-    font-family: "Microsoft Yahei";
+    font: 21px "Microsoft Yahei";
     color: #cc8091;
 }
 
@@ -317,12 +308,11 @@ header .header-hr {
     position: absolute;
     right: 44.7px;
     bottom: 8px;
-    font-size: 12px;
-    font-family: "Microsoft Yahei";
+    font: 12px "Microsoft Yahei";
     color: #cc8091;
 }
 .parttwo {
-    margin: 20px 0;
+    margin: 40px 0;
     width: 641px;
 }
 .parttwo .left {
@@ -331,15 +321,13 @@ header .header-hr {
     margin-right: 30px;
 }
 .parttwo .left span {
-    font-size: 16px;
-    font-family: "Microsoft Yahei";
+    font: 16px "Microsoft Yahei";
     font-weight: bold;
     text-decoration: underline;
     color: #418c59;
 }
 .parttwo .left p {
-    font-size: 12px;
-    font-family: "SimSun";
+    font: 12px "SimSun";
     line-height: 16px;
     color: #767777;
 }
@@ -349,15 +337,13 @@ header .header-hr {
     margin-right: 30px;
 }
 .parttwo .mid span {
-    font-size: 16px;
-    font-family: "Microsoft Yahei";
+    font: 16px "Microsoft Yahei";
     font-weight: bold;
     text-decoration: underline;
     color: #d2994f;
 }
 .parttwo .mid p {
-    font-size: 12px;
-    font-family: "Microsoft Yahei";
+    font: 12px "Microsoft Yahei";
     line-height: 16px;
     color: #231815;
     opacity: 0.7;
@@ -367,31 +353,23 @@ header .header-hr {
     float: right;
 }
 .parttwo .right .title {
-    font-size: 16px;
-    font-family: "Microsoft Yahei";
+    font: 16px "Microsoft Yahei";
     font-weight: bold;
     text-decoration: underline;
     color: #cc7680;
 }
 .parttwo .right p {
     margin-bottom: 25px;
-    font-size: 12px;
-    font-family: "Microsoft Yahei";
-    line-height: 21px;
+    font: 12px/20px "Microsoft Yahei";
     color: #231815;
     opacity: 0.7;
 }
 .parttwo .right .word {
-    font-size: 12px;
-    font-family: "Microsoft Yahei";
-    line-height: 16px;
+    font: 12px/16px "Microsoft Yahei";
     color: #231815;
 }
 .parttwo .right .number {
-    font-size: 12px;
-    line-height: 16px;
-    font-style: oblique;
-    font-family: "Microsoft Yahei";
+    font: italic 12px/16px "Microsoft Yahei";
     color: #cd4a48;
     opacity: 0.7;
 }
@@ -403,27 +381,15 @@ header .header-hr {
     float: left;
     width: 415px;
 }
-.partthree .left .firstword {
-    display: inline-block;
-    margin-right: 13px;
-    font-size: 72px;
-    font-family: "SimHei";
+.partthree .left .title span {
+    margin-right: 20px;
+    font: italic 72px "SimHei";
     font-weight: bold;
-    font-style: oblique;
     color: #f5e327;
 }
-.partthree .left .otherwords {
-    font-size: 42px;
-    font-family: "SimHei";
-    font-weight: bold;
-    color: #11456b;
-    line-height: 16px; 
-}
 .partthree .left .title {
-    display: block;
-    margin: 10px 0;
-    font-size: 33px;
-    font-family: "SimHei";
+    margin: 0 0 10px 0;
+    font: 42px "SimHei";
     font-weight: bold;
     color: #11456b;
 }
@@ -502,12 +468,13 @@ header .header-hr {
     font-size: 12px;
     font-family: "Microsoft Yahei";
     letter-spacing: 140%;
-    font-style: oblique;
+    font-style: italic;
     color: #72b16a;
 }
 .partthree .right .down {
-    margin-top: 30px;
+    margin-top: 40px;
     background-color: #F2E6E6;
+    padding-top: 15px;
 }
 .partthree .right .down .content {
     width: 316px;
@@ -530,9 +497,80 @@ header .header-hr {
     color: #5a5b5b;
 }
 .right .down .content .after {
-    text-align: right;
     font-size: 12px;
     font-family: "Microsoft Yahei";
-    font-style: oblique;
+    font-style: italic;
     color: #5a5b5b;
+}
+.right .down .block {
+    position: relative;
+    float: left;
+    margin-top: 40px;
+    width: 260px;
+    height: 160px;
+    background-color: #CD6969;
+}
+.right .down .block .mark1 {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 110px;
+    color: #ffffff;
+    font-family: "Microsoft Yahei";
+}
+.right .down .block .vertical {
+    position: absolute;
+    left: 80px;
+    bottom: 33px;
+    border-left: 2px solid #ffffff;
+    height: 86px;
+}
+.right .down .block .mark2 {
+    position: absolute;
+    left: 90px;
+    bottom: 53px;
+    font: italic 21px/24px "SimHei";
+    color: #ffffff;
+}
+.right .down .block .mark3 {
+    position: absolute;
+    left: 90px;
+    bottom: 30px;
+    font: 12px/10px "SimHei";
+    color: #ffffff;
+}
+.right .down .article {
+    width: 180px;
+    height: 160px;
+    float: right;
+    margin-top: 30px;
+}
+.right .down .article span {
+    font: 72px "SimHei";
+    color: #d45d5c;
+}
+.right .down .article .symbol1 {
+    float: left;
+    height: 30px;
+    margin: 10px 0 0 -30px;
+}
+.right .down .article .symbol2 {
+    float: right;
+    height: 30px;
+    margin: -20px 20px 0 0;
+}
+.right .down .article .text {
+    font: italic 14PX/16PX "SimHei";
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+footer {
+    border-top: 1px solid #938e8c;
+    width: 892px;
+    margin-top: 40px;
+}
+footer .url {
+    float: right;
+    font: 12px "SimHei";
+    color: #d45d5c;
 }
