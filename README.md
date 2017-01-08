@@ -13,3 +13,6 @@
 [task04_demo](http://wangbiao92.github.io/ife/task04.html)<br>
 [task05_demo](http://wangbiao92.github.io/ife/task05.html)<br>
 [task06_demo](http://wangbiao92.github.io/ife/task06.html)<br>
+[task08_demo](http://wangbiao92.github.io/ife/task08.html)<br>
+[task13_demo](http://wangbiao92.github.io/ife/task13.html)<br>
+1.Function类型--函数声明和函数表达式2.事件3.判断字符串是否为整数
