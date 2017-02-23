@@ -21,7 +21,7 @@
             */
             var $ = function(id) {
                 return document.getElementById(id);
-            }; //表达式要加分号
+            }; //函数封装
             var isNum = function() {
                 var num = Number($("aqi-input").value);//先将字符串转成数字型，不是数字返回NaN
                 if ((!isNaN(num)) && (num >= 0) && (num <= 500) && (num % 1 === 0)) {//判断是否为整数
